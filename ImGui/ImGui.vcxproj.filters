@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Public">
+      <UniqueIdentifier>{782b0540-9ed6-4d2f-a3e8-cea74309090a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private">
+      <UniqueIdentifier>{cb676d0e-b504-406f-b838-9b7730db5796}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\imconfig.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\backends\imgui_impl_glfw.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\backends\imgui_impl_vulkan.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui_internal.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imstb_rectpack.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imstb_textedit.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imstb_truetype.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\imgui_demo.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui_draw.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\backends\imgui_impl_glfw.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\backends\imgui_impl_vulkan.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui_tables.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui_widgets.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
